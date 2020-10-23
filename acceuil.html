@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acceuil</title>
+    <link rel="stylesheet" href="acceuil.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="actuality-page">
+    <!--------------------- Start Navbar---------- -->
+
+    <!--------------------- End Navbar---------- -->
+    <!----------------Star landing section page---------->
+
+    <!----------------End landing section page---------->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#"
+        ><img class="logo-gym" src="img/pp.png" alt=""
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Acceuil</a>
+          </li>
+
+        
+          <li class="nav-item">
+            <a  class="nav-link" href="#activités">Activités</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tarifs.html">Tarifs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#actualités">Actualités</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2 recherche" type="search" placeholder="Search" aria-label="Search">
+            <i style="color: #fff002;
+            font-size: 21px;" class="fas fa-search"></i>
+          </form>
+        </ul>
+      </div>
+    </nav>
+    <!-- ------Landing------------- -->
+    <div class="landing">
+      <div class="home-wrap">
+        <div class="home-inner">
+          <!-- <img src="../img/image-principal.jpeg" alt="" /> -->
+        </div>
+      </div>
+    </div>
+    <div class="caption text-center">
+      <h1>Bienvnue à Power Gym</h1>
+      <h3>Salle de sport et de Fitness</h3>
+
+      <!-- Button trigger modal -->
+<!-- Button trigger modal -->
+<div class="insciption">
+<button type="button" class="btn btn-outline-warning sign-in px-5" data-toggle="modal" data-target="#exampleModal">
+  Sign In
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 style="color: black ; font-weight: 500;" class="modal-title" id="exampleModalLabel">MEMBERS LOG IN</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <span style="color: black;"></span>
+          <div class="input-group flex-nowrap">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="addon-wrapping"><i class="fas fa-users-cog"></i></span>
+            </div>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+          <br>
+           <!-- -------- -->
+           <div class="input-group flex-nowrap">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="addon-wrapping"><i class="fas fa-unlock-alt"></i></span>
+            </div>
+            <input type="password" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+          <br>
+          <a href="#"> Mot de passe oubliez</a>
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-success">Connexion</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ---------register--------- -->
+<button  type="button" class="btn btn-outline-warning mx-2 sign-in px-5" data-toggle="modal" data-target="#Modal">
+  Sign Up
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 style="color: black ; font-weight: 500;" class="modal-title" id="exampleModalLabel">S'inscrire</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+           <div class="input-group flex-nowrap">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="addon-wrapping"><i class="fas fa-users-cog"></i></span>
+            </div>
+            <input type="password" class="form-control" placeholder="Username" aria-label="" aria-describedby="addon-wrapping">
+          </div>
+       <br>
+          <div class="input-group flex-nowrap">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="addon-wrapping"><i class="fas fa-users-cog"></i></span>
+            </div>
+            <input type="email" class="form-control" placeholder="address mail" aria-label="" aria-describedby="addon-wrapping">
+          </div>
+          <br>
+           <!-- -------- -->
+           <div class="input-group flex-nowrap">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="addon-wrapping"><i class="fas fa-unlock-alt"></i></span>
+            </div>
+            <input type="password" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+          <br>
+          <div class="input-group flex-nowrap">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="addon-wrapping"><i class="fas fa-unlock-alt"></i></span>
+            </div>
+            <input type="password" class="form-control" placeholder="Confirm Password" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+       
+         <p style="color: black;">S'inscrire avec</p>
+         <div style="display: flex; justify-content: space-around; color: black;" class="">
+          <div  style="color: #3B5998;">  <a href="#"> FACEBOOK</a></div>
+          
+          <div style="color: #00ACED;"> <a href="#"></a> TWITTER</div>
+         <div style="color: #C32F10;" >  <a href="#"></a> +GOOGLE</div>
+         </div>
+         <br>
+          <p style="color: black;">vous avez un compte?  <a href="">S'identifier</a> </p>
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" style="display: inline-block;" class="btn btn-success">Connexion</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    </div>
+    <!---------- Start Section 2 A propos--------- -->
+    <div class="container-fluid apropos">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12 text-center mt-4">
+          <h1>à Propos</h1>
+          <p class="paragraphe">
+            Depuis 2007, Oxygene Fitness & Pilates a su évoluer tant sur ses
+            activités sportives que sur son statut. Cette longévité, nous la
+            devons à notre fidèle clientèle, notre qualité de service, notre
+            diversité et notre ambiance dynamique et conviviale. Dans notre
+            salle de sport, c’est toute une équipe de professionnels diplômés
+            d’état et des équipements haut de gamme qui vous apporteront
+            bien-être et vitalité en toute sécurité.
+          </p>
+         <a href="actualités.html"><button type="button" class="btn btn-warning mb-4">
+            En Savoir Plus
+          </button></a> 
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12 mt-4">
+          <h5>EXPERTISES</h5>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 93%"
+              aria-valuenow="20"
+              aria-valuemin="0"
+              aria-valuemax="20"
+            ></div>
+          </div>
+          <h5>SERVICES</h5>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 87%"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <h5>EQUIPEMENTS</h5>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 99%"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <h5>HYGIENES</h5>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 99%"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------------Services----------------->
+    <div class="container p-3 services">
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center m-5">
+        <h1 >Services</h1>
+        <hr class="ligne0" />
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="poid">
+            <div class="icon-serv"> <i class="fas fa-chart-bar icons-services" ></i></div>
+            <p>Suivez Votre Poids </p>
+          </div>
+        </div>
+       <!------------>
+       <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="poid">
+            <div class="icon-serv"><i class="fas fa-battery-half icons-services"></i></div>
+            <p>Casier De Recharge </p>
+          </div>
+        </div>
+        <!----------------->
+        <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="poid">
+            <div class="icon-serv"><i class="fas fa-heartbeat  icons-services"></i></div>
+            <p>Cours variés  </p>
+          </div>
+        </div>
+      </div>
+      <!-------------services 2-------------->
+        <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="poid">
+            <div class="icon-serv"><i class="fas fa-mobile-alt icons-services"></i></div>
+            <p>Application Mobile  </p>
+          </div>
+        </div>
+       <!------------>
+       <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="poid">
+            <div class="icon-serv"><i class="fas fa-calendar-alt icons-services"></i></div>
+            <p>Planning Complet </p>
+          </div>
+        </div>
+        <!-----------------> 
+        <div class="col-md-4 col-sm-4 col-xs-6">
+          <div class="poid">
+            <div id="activités" class="icon-serv"><i class="fas fa-wifi icons-services"></i></div>
+            <p>Wifi Gratuit  </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------- End Section 2 A propos--------- -->
+    <!--------Start Section 3 Activité----------  -->
+    <div class="row activity">
+      <div class="col-md-12 col-sm-12 col-xs-12 text-center m-5">
+        <h1 id="activités">Activités</h1>
+        <hr class="ligne0" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <!------------- bloc 1------- -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="card card-one" style="width: 18rem">
+              <div class="card-body text-center">
+                <h5 class="card-title">CARDIO</h5>
+
+                <p class="card-text">
+                  Un espace dédié incontournable pour une bonne préparation.
+                </p>
+                <hr class="ligne1" />
+                <a href="#" class="card-link"><i class="fas fa-biking"></i></a>
+                <a href="#" class="card-link"><i class="fas fa-biking"></i></a>
+                <a href="#" class="card-link"><i class="fas fa-biking"></i></a>
+              </div>
+            </div>
+          </div>
+          <!------------- bloc 2------------- -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="card card-two" style="width: 18rem">
+              <div class="card-body text-center">
+                <h5 class="card-title">Force</h5>
+
+                <p class="card-text">
+                  Compte parmi les salles les mieux équipées au monde
+                </p>
+                <hr class="ligne2" />
+                <a href="#" class="card-link"><i class="fas fa-child"></i></a>
+                <a href="#" class="card-link"><i class="fas fa-biking"></i></a>
+                <a href="#" class="card-link"><i class="fas fa-child"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-----------bloc 3------------  -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="card card-one" style="width: 18rem">
+              <div class="card-body text-center">
+                <h5 class="card-title">ÉTIREMENTS</h5>
+
+                <p class="card-text">
+                  Optimisez le «capital performance» acquis lors de votre
+                  séance.
+                </p>
+                <hr class="ligne1" />
+                <a href="#" class="card-link"><i class="fas fa-biking"></i></a>
+                <a href="#" class="card-link"><i class="fas fa-biking"></i></a>
+                <a href="#" class="card-link"><i class="fas fa-biking"></i></a>
+              </div>
+            </div>
+          </div>
+          <!---------bloc 4---------  -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="card card-two" style="width: 18rem">
+              <div class="card-body text-center">
+                <h5 class="card-title">TRX</h5>
+
+                <p class="card-text">
+                  Un esprit collectif partagez un bon moment.
+                </p>
+                <hr class="ligne2" />
+                <a href="#" class="card-link"><i class="fas fa-child"></i></a>
+                <a href="#" class="card-link"><i class="fas fa-biking"></i></a>
+                <a href="#" class="card-link"><i class="fas fa-child"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center m-4">
+         <a href="activités.html"><button type="button" class="voir-activity">
+          NOS DERNIERES NEWS
+          </button></a> 
+        </div>
+      </div>
+    </div>
+    <!---------- End Section 3 A Activité--------- -->
+    <!------------ Start Section 4 Planning---------  -->
+
+    <div class="row planning">
+      <div class="container">
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center mb-8">
+          <h1>PLANNING DES COURS</h1>
+          <hr class="ligne0" />
+          <h5>
+            CONSULTEZ VOS PLANNINGS EN LIGNE, ET NE RATEZ AUCUN DE VOS COURS
+            PRÉFÉRÉS.
+          </h5>
+        </div>
+        <div class="row text-center mt-4">
+          <div class="col-md-4 com-sm-4 col-xs-12">
+            <div class="card" style="width: 22rem">
+              <img src="img/ladies1.jpeg" class="card-img-top" alt="..." />
+              <div class="row card-body">
+                <div class="card-title col-md-4 col-sm-4 col-xs-4">
+                  <p class="tittre">LADIES</p>
+                  <div class="étapes">
+                    <span>4</span>
+
+                    <p class="tittree">ETAPES</p>
+                  </div>
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-8 pt-4">
+                  <h6>COURS:</h6>
+                  <p>Pilates,Abdo Fesiers,Indorwalking</p>
+                </div>
+                <div class="box">
+                  <p>
+                    Ladies Gym vous réserve aussi une sélection de cours de gym
+                    ciblés (Pilates, Abdo Fessiers, Indoorwalking...).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 com-sm-4 col-xs-12">
+            <div class="card" style="width: 22rem">
+              <img src="./img/force.jpeg" class="card-img-top" alt="..." />
+              <div class="row card-body">
+                <div class="card-title col-md-4 col-sm-4 col-xs-4">
+                  <p class="tittree">FORCE</p>
+                  <div class="étapes">
+                    <span>4</span>
+
+                    <p>ETAPES</p>
+                  </div>
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-8 pt-4">
+                  <h6>COURS:</h6>
+                  <p>Abdo Fesiers,Body Sculpt,Cx Works</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 com-sm-4 col-xs-12">
+            <div class="card" style="width: 22rem">
+              <img src="img/dance.webp" class="card-img-top" alt="..." />
+              <div class="row card-body">
+                <div class="card-title col-md-4 col-sm-4 col-xs-4">
+                  <p class="tittree">DANCE</p>
+                  <div class="étapes">
+                    <span>4</span>
+
+                    <p>ETAPES</p>
+                  </div>
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-8 pt-4">
+                  <h6>GROUPE MUSCULAIRE</h6>
+                  <p>Zumba,Oriental,Sals</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!------------ End Section 4 Planning---------  -->
+
+      <!------------ Start Section  5 Horaires--------  -->
+      <div class="row   programme pt-5">
+        <div class="col-md-6 col-sm-12 col-xs-12 px-5 text-center ">
+          <h1 style="margin-left: 20px !important;"> Programme</h1>
+          <hr class="ligne0" />
+          <h2>Réservez votre cours</h2>
+
+          <button
+            style="margin-left: 200px"
+            type="button"
+            class="btn btn-warning mr-2 mt-4 reserver"
+            data-toggle="modal"
+            data-target="#ReservationModal"
+            data-whatever="@mdo"
+            id="actualités" 
+          >
+            Réserver
+          </button>
+
+          <div
+            class="modal fade"
+            id="ReservationModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="ModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ModalLabel">
+                    Formulaire de Réservation
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="recipient-name" class="col-form-label"
+                        >Nom et Prénom</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="recipient-name"
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <label for="recipient-name" class="col-form-label"
+                        >Email</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="recipient-name"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="recipient-name" class="col-form-label"
+                        >Type d'activité</label
+                      >
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>selectionner</option>
+                        <option value="1">Fitness</option>
+                        <option value="2">Pilates</option>
+                        <option value="3">cardio</option>
+                        <option value="3">Kids</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="recipient-name" class="col-form-label"
+                        >Type d'inscription</label
+                      >
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>selectionner</option>
+                        <option value="1">3 mois</option>
+                        <option value="2">6 mois</option>
+                        <option value="3">1 ans</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="message-text" class="col-form-label"
+                        >Message:</label
+                      >
+                      <textarea
+                        style="width: 80%"
+                        class="form-control"
+                        id="message-text"
+                      ></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success">
+                    Confirmer
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 col-sm-12 col-xs-12 horaires  text-center">
+          <h2>Horaires</h2>
+          <div class="heures-jours " style="text-align: center;">
+            <i class="far fa-clock"></i>
+            <p>Lundi à Vendredi</p>
+
+            <p class="heures"> 07:00 - 22:00</p>
+          </div>
+
+          <hr class="lihne-hr" />
+
+          <div class="heures-jours">
+            <i class="far fa-clock"></i>
+            <p>Samedi</p>
+
+            <p class="heures">07:00 - 18:00</p>
+          </div>
+          <hr class="lihne-hr" />
+          <div class="heures-jours">
+            <i class="far fa-clock"></i>
+            <p>Dimanche</p>
+
+            <p class="heures">08:00 - 14:00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------ End Section 5 Horaires--------  -->
+     <!------------ End Section 6 Horaires--------  -->
+     <div ></div>
+    <div class="  pt-4 actualité  "> 
+      <h1 >Les derniers Actualités  </h1>
+      <hr class="ligne0">
+      <div class="container  py-4">
+      <div class="row  " >
+        
+       <div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="card" style="width: 18rem;">
+  <img src="img/media.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">	
+       Partenariat avec BONPILATES </h5>
+       <p class="card-text"> Parce que nos partenaires comptent beaucoup pour nous et contribuent largement à notre succès, </p>
+    <a href="actualités.html" class="btn btn-outline-warning">Savoir plus</a>
+  </div>
+</div>
+       </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+         <div class="card" style="width: 18rem;">
+  <img src="img/cotch.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Journée spéciale Avec nouvelle cotch Sarra</h5>
+    <p class="card-text">Une journée spéciale découverte a eu lieu le Mercredi 4 Mars 2020 dans une ambiance dynamique et conviviale.</p>
+    <a href="actualités.html" class="btn btn-outline-warning">Savoir plus</a>
+  </div>
+</div>
+       </div>
+       <div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="card" style="width: 18rem;">
+  <img src="img/bb.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Ouverture club Kids Oxygene</h5>
+    <p class="card-text">Parce que faire aimer le sport à nos enfants est un devoir pour chacun de nous, oxygene fitness</p>
+    <a href="actualités.html" class="btn btn-outline-warning">Savoir plus</a>
+  </div>
+</div> 
+</div>
+       </div>
+       </div>
+       
+       
+<!-- -------Start Partenaire----------- -->
+       <div class="container partenaire m4-4">
+         <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+             <h1>Partenaires </h1>
+             <hr class="ligne0"> 
+          </div>
+         <div class=" row pt-4">
+            <div class="col-md-2 col-sm-4 col-6">
+              <img src="img/55.jpg" alt="">
+            </div>
+            <div class="col-md-2 col-sm-4 col-4">
+              <img src="img/fitnnes.png" alt="">
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-4">
+              <img src="img/fourat2.jpeg" alt="">
+            </div>
+            <div class="col-md-2 col-sm-4 col-4">
+              <img src="img/gmail.png" alt="">
+            </div>
+            <div class="col-md-2 col-sm-4 col-4">
+              <img src="img/fit.webp" alt="">
+            </div>
+            <div class="col-md-2 col-sm-4 col-4">
+              <img src="img/fitns-club.png" alt="">
+            </div>
+         </div>
+       </div>
+       <!----------------End Partenaire----------------  -->
+      
+
+
+      </div>
+
+
+      <!-- ------Footer---------------- -->
+      <hr class="ligne-footer ">
+      
+       <footer class="container footer-acceuil ">
+        <div class="row">
+          <div class="col-md-4 col-sm-4-col-xs-12 footer-head">
+            <h2>Power Gym</h2>
+            <p> Power Gym a su évoluer tant sur ses activités sportives que sur son statut depuis 2007. Oxygene Fitness & Pilates, votre salle de sport par excellence.</p>
+            <div class="contact">
+              <input type="email" class="email form-control width-80" id="sus_email" placeholder="Taper votre Email">
+              <button type="submit" id="sus_submit" class="add-btn">Envoyer</button>
+
+            </div>
+
+          </div>
+          <div class="col-md-4 col-sm-4-col-xs-12">
+            <div class="footer-head">
+              <h4>Services Link</h4>
+              <ul class="footer-list">
+                  <li><a href="activités.html">Activités</a></li>
+                  <li><a href="tarifs.html">Tarifs </a></li>
+                 
+               
+                  <li><a href="actualités.html">Actualités</a></li>
+              </ul></div>
+          </div>
+          <div class="col-md-4 col-sm-4-col-xs-12">
+
+
+            <div class="footer-head pb-2">
+              <h4>Information</h4> 
+              <div class="footer-contacts">
+                  <p><span>Tel :</span> +216 25-505-632</p>
+                  <p><span>Email :</span> info@Power-Gym.com</p>
+                  <p><span>Location :</span> Lac 2 Tunis</p>
+              </div> 
+              <div class="footer-icons">
+                  <ul>
+                      <li>
+                        
+                        <i class="fab fa-facebook-f"></i>
+                        
+                      </li>
+                      <li>
+                          <a href="#">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <i class="fab fa-google"></i>
+                          </a>
+                      </li>
+                     
+                      <li>
+                          <a href="#">
+                              <i class="fab fa-instagram"></i>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="footer-area-bottom">
+          <div class="container text-center">
+              <div class="row">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                      <div class="copyright">
+                          <p>
+                              Copyright © 2020
+                              <a href="#">Power Gym</a> All Rights Reserved
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+       </footer>
+
+
+    </div>
+
+      <!------------ End Section 6 Horaires--------  -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,655 @@
+body {
+  overflow-x: hidden;
+}
+* {
+  font-family: Roboto, sans-serif;
+}
+/* ------Navbar--------- */
+.logo-gym {
+  border-radius: 214px;
+  width: 88px;
+  height: 58px;
+}
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  color: white;
+}
+.connexion {
+  margin-left: 200px;
+}
+.sign-in {
+  color: black !important;
+}
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+  padding-top: 0.8rem;
+}
+.navbar-nav .nav-link:hover {
+  color: #fff002 !important;
+  border-bottom: 1px solid #fff002;
+}
+.button {
+  color: white !important;
+  font-weight: bold !important;
+  background-color: #fff002 !important;
+}
+.btn-outline-warning {
+  color: white !important;
+}
+/* --------Landing------------- */
+.home-inner {
+  background-image: url(./img/captr.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding-top: 800px;
+  position: relative;
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 55%;
+
+  color: white;
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  padding-bottom: 1rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+}
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 1.6rem;
+  color: #fff013;
+}
+/* -----progress--------- */
+.progress {
+  height: 9px !important;
+  margin-bottom: 16px;
+  margin-top: 20px;
+}
+.progress-bar {
+  background: #fff013 !important ;
+}
+.apropos {
+  background-color: #e9ecef;
+}
+.apropos h1 {
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 10px;
+  font-weight: 700;
+}
+.apropos .paragraphe {
+  line-height: 35px;
+}
+/* -------------------Section 3 Activity ---------------- */
+.activity {
+  background-color: #000;
+}
+.activity h1 {
+  color: white;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+.card {
+  background-color: #000 !important;
+  color: white;
+
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #fff !important;
+}
+.card-one .card-title {
+  font-weight: 700;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+.card-one li {
+  list-style-type: none;
+  letter-spacing: 2px;
+}
+.card-two {
+  background: #fff002 !important;
+  text-align: center;
+  color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #fff !important;
+}
+.card-two .card-title {
+  font-weight: 900;
+  margin-top: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.ligne0 {
+  background-color: white;
+  height: 10px;
+  width: 100px;
+}
+.ligne1 {
+  background-color: white;
+}
+.ligne2 {
+  background-color: black;
+}
+.card-two i {
+  width: 30px;
+  padding-top: 5px;
+
+  height: 30px;
+  background-color: black !important;
+  border-radius: 20px;
+  color: #fff002 !important;
+}
+
+.activity i {
+  width: 30px;
+  padding-top: 5px;
+
+  height: 30px;
+  background-color: #fff002;
+  border-radius: 20px;
+  color: #000000;
+}
+.voir-activity {
+  background-color: #fff002;
+  color: black;
+  padding: 10px;
+  border: 0;
+  font-weight: 700;
+}
+.activity button {
+  margin: 20px;
+}
+/* ----------Planning section 4------- */
+.planning {
+  background-color: black;
+}
+.planning h1 {
+  color: white;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+.planning h5 {
+  color: white;
+}
+.planning .étapes {
+  border: 3px solid white;
+  border-radius: 50px;
+  font-weight: 500;
+}
+.planning h6 {
+  font-weight: bold;
+}
+.planning .tittre {
+  font-weight: 700;
+}
+.planning .card {
+  position: relative;
+}
+.box {
+  color: black;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+  top: 20;
+  right: 0;
+  padding-top: 20px;
+}
+.planning .box:hover {
+  display: block;
+  background-color: #fff002;
+}
+/*---------------Programme   -------- */
+.programme {
+  background-image: url(./img/pexels-photo-4164640.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.programme h1 {
+  color: #fff002;
+  font-weight: 600;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  display: flex;
+}
+.programme h2 {
+  color: white !important;
+
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+/*--------Réservation----------- */
+.reserver {
+  letter-spacing: 3px !important;
+  padding: 0.75rem 2.75rem !important;
+}
+.programme input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+.programme label {
+  font-weight: 600;
+}
+.programme .modal h5 {
+  color: black;
+
+  font-weight: 800;
+}
+/* ----------Horaires-------- */
+.horaires {
+  background-color: #fff002 !important;
+}
+
+.heures-jours {
+  display: flex;
+  justify-content: space-around;
+}
+
+.horaires h2 {
+  letter-spacing: 5px;
+  font-weight: 600;
+  color: black !important;
+}
+/* --------------- actualités--------- */
+.actualité {
+  background-image: url(./img/section-box.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.actualité h1 {
+  color: white;
+
+  text-align: center !important;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.actualité h5 {
+  font-weight: 600;
+  color: #ffff30;
+}
+/**** ------- partenaire ------*/
+.partenaire h1 {
+  color: white;
+
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+.partenaire img {
+  width: 80px;
+  width: 70px;
+  border-radius: 50px;
+}
+/* ------------Footer-------------- */
+.ligne-footer {
+  background-color: #ffff30;
+}
+.contact input {
+  color: white;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 6px 15px;
+  height: 46px;
+  border-radius: 0;
+  width: 64%;
+  margin-trim: 10px;
+  float: left;
+  background: #fff;
+}
+.footer-contacts p span {
+  color: #fff002;
+}
+.contact button {
+  background: #fff002;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 5px;
+  width: 36%;
+  font-weight: 600;
+  height: 46px;
+  border: 1px solid #fff002;
+  transition: 0.4s;
+}
+.suscribe-input button:hover {
+  color: #fff002;
+  background: #fff;
+  transition: 0.4s;
+}
+.footer-head h4 {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.footer-list {
+  width: 50%;
+  float: left;
+}
+.footer-head h4 {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+.footer-head p {
+  color: white;
+  margin-bottom: 0px;
+}
+.footer-icons ul li {
+  display: inline-block;
+}
+.footer-icons ul li {
+  color: #fff;
+  display: block;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: center;
+  margin-right: 3px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff002;
+  border-radius: 2px;
+
+  transition: 0.4s;
+}
+.fab {
+  color: white;
+}
+.footer-tags li a:hover {
+  color: #fff002;
+  background: #fff;
+  transition: 0.4s;
+}
+.footer-icons {
+  margin-top: 30px;
+}
+.footer-head p {
+  color: white;
+}
+.logo-footer .footer-head p {
+  color: white;
+  margin-bottom: 0px;
+}
+.footer-head h4 {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.footer-head ul li a {
+  font-size: 20px;
+}
+.footer-icons ul li {
+  display: inline-block;
+}
+.footer-list {
+  width: 50%;
+  float: left;
+}
+.footer-list li a {
+  list-style-type: none !important;
+  text-decoration: none !important;
+  color: white;
+}
+.footer-list li a:hover {
+  color: #fff002;
+}
+.add-btn {
+  color: #000 !important;
+}
+.footer-head h2 {
+  color: #fff002;
+}
+.contact {
+  padding-top: 10px;
+}
+/* ---------Copiright---------- */
+.copyright-text a:hover {
+  text-decoration: underline;
+  color: #fff002;
+}
+.copyright-text a {
+  color: #fff002;
+}
+.copyright > p {
+  margin-bottom: 0;
+  color: white;
+}
+.copyright a {
+  color: #fff002;
+}
+.footer-area-bottom {
+  padding: 25px 0;
+  color: white;
+}
+/* --------------------------Activitiés------------------------- */
+.home-inner-cardio {
+  background-image: url(./img/cardio1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100%;
+  width: 100%;
+  padding-top: 800px;
+  position: relative;
+}
+.espace {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.caption-cardio {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 69%;
+  z-index: 1;
+  color: white;
+}
+.cardio-carda {
+  width: 42rem !important;
+
+  height: 294px !important;
+}
+.para {
+  margin-top: 63px;
+  color: white;
+  line-height: 41px;
+}
+.caption-cardio h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #fff002 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  padding-bottom: 1rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+}
+.caption h5 {
+  font-size: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 1.6rem;
+}
+.ligne-cardio {
+  background-color: white;
+  width: 500px !important;
+  color: white !important;
+  height: 3px !important;
+}
+/* ------------2 echauffement------------ */
+.black-page {
+  background: black;
+}
+
+.card-jaune {
+  background-color: #fff002;
+}
+/* -----------Force----------------- */
+/*  */
+.force-gym {
+  font-size: 64px;
+  color: #fff002;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 65px;
+}
+.kids-activity h1 {
+  color: #fff002;
+}
+.kids-activity p {
+  color: white;
+  line-height: 33px;
+}
+/* -------------Tarifs------------ */
+.tarifs {
+  margin-top: 84px;
+  background-color: black;
+}
+.tarifs .title {
+  color: black;
+  font-size: 19px;
+  background-color: #fff002;
+  padding: 23px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.ligne-tarif {
+  background-color: black;
+  height: 10px;
+  width: 100px;
+}
+.prix {
+  background-color: #fff002;
+  padding: 10px;
+  color: black;
+  margin-bottom: 5px;
+}
+.tarifs i {
+  padding-right: 20px;
+  color: #fff002;
+}
+.prix p {
+  font-weight: bold;
+}
+.ligne-para {
+  background-color: white;
+}
+/*******------- Actualités --------------------*****/
+
+.home-inner-actualité {
+  background-image: url(./img/act1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding-top: 800px;
+  position: relative;
+}
+.caption-cardio h3 {
+  font-weight: bold;
+  font-size: 52px;
+  letter-spacing: 21px;
+}
+.actuality-page {
+  background-color: black;
+}
+.date {
+  display: flex;
+  justify-content: space-around;
+}
+.title-pronariat {
+  color: #fff002;
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+.date p {
+  padding-left: 10px;
+}
+.card1 {
+  box-shadow: 0px 1px 9px #fff002;
+}
+.card1:hover {
+  transform: translateY(-15px);
+}
+/**---------- footer-acceuil---------------*/
+.footer-acceuil {
+  background-color: black !important;
+}
+.connexion {
+  margin-left: 670px !important;
+}
+/* ----------*/
+.recherche {
+  border: none !important;
+  background-color: transparent !important;
+  border-bottom: 1px solid #fff002 !important;
+}
+/* ---------Contact--------------------- */
+.contact-map-title {
+  color: white;
+  text-align: center;
+}
+.media-icons {
+  color: #000;
+}
+.maps {
+  width: 525px;
+  height: 414px;
+}
+.poid {
+  display: flex;
+}
+.poid p {
+  padding-left: 15px;
+  color: white;
+}
+.icons-services {
+  color: #fff002;
+  font-size: 27px;
+  padding: 10px;
+}
+
+.icon-serv {
+  border-radius: 33px;
+  border: 3px solid white;
+}
+.services h1 {
+  color: white;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+.icon-serv:hover {
+  background: #fff002;
+}
+.icons-services:hover {
+  color: black !important;
+}
+.ligne3 {
+  background: #fff002;
+}
